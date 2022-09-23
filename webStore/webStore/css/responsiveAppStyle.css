@@ -1,0 +1,406 @@
+body {
+
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	color: #444444;
+	background-color: #F7F7F7;
+	text-align: justify;
+	margin: 0%;
+
+}
+
+nav {
+	background: #0069B4;
+	width: 100%;
+	height: 80px;
+	justify-content: space-around;
+	position: fixed;
+	top: 0;
+	transition: top 0.25s;
+}
+
+nav img {
+	margin-top: 9px;
+	padding-left: 2%;
+	height: 60px;
+	background: none;
+}
+
+#webestorelogo {
+	padding-left: 4%;
+	position: absolute;
+}
+
+#titulo {
+
+	width: 100%;
+	margin-top: 100px;
+}
+
+#logo {
+	float: left;
+	width: 15%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#logo img {
+	top: 0;
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	border-radius: 25%;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#logo button {
+
+	margin: 0 auto;
+	margin-top: 5%;
+	background-color: #0069B4;
+	padding: 5% 8%;
+	border: none;
+	border-radius: 5px;
+	color: #F7F7F7;
+	font-weight: bold;
+	display: block;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#logo p {
+
+	text-align: center;
+}
+
+
+#descripcion {
+	float: left;
+	margin-left: 2%;
+	width: 70%;
+	text-align: center;
+}
+
+#descripcion p {
+	font-size: 100%;
+}
+
+.description {
+	width: 100%;
+	height: max-content;
+}
+
+#novedades {
+
+	margin-left: 2%;
+
+}
+
+.normalT {
+
+	font-size: 90%;
+
+}
+
+.hide {
+
+	display: none;
+
+}
+
+.mostrarMas {
+	text-decoration: none;
+	color: #888888;
+	float: right;
+}
+
+.mostrarMenos {
+	font-size: 90%;
+	text-decoration: none;
+	color: #888888;
+
+}
+
+#novedades {
+
+	float: left;
+
+}
+
+.subT {
+
+	color: #888888;
+
+}
+
+#central {
+
+	clear: both;
+	width: 100%;
+	padding-top: 5%;
+
+}
+
+#gallery {
+	width: 45%;
+	float: left;
+	border-radius: 2px;
+	margin-left: 5%;
+	padding-bottom: 2%;
+}
+
+ul {
+
+	font-size: 90%;
+
+}
+
+#info {
+	float: left;
+	margin-left: 5%;
+	color: #888888;
+
+}
+
+#info h3 {
+
+	border-bottom: 2px solid #444444;
+	margin-top: 0%;
+}
+
+#info span {
+
+	color: #444444;
+
+}
+
+#contenedor {
+
+	clear: both;
+	margin-left: 20%;
+	width: 50%;
+}
+
+#mostrador {
+
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	border: 2px solid #444444;
+	border-radius: 8px 8px 0px 0px;
+
+}
+
+#mostrador img {
+
+	height: 100%;
+	width: 100%;
+
+}
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {
+		margin-left: 0;
+	}
+
+	20% {
+		margin-left: 0;
+	}
+
+	25% {
+		margin-left: -100%;
+	}
+
+	45% {
+		margin-left: -100%;
+	}
+
+	50% {
+		margin-left: -200%;
+	}
+
+	70% {
+		margin-left: -200%;
+	}
+
+	75% {
+		margin-left: -300%;
+	}
+
+	100% {
+		margin-left: -300%;
+	}
+}
+
+
+#selector {
+	height: 80px;
+	width: 100%;
+	border-left: 2px solid #444444;
+	border-bottom: 2px solid #444444;
+	border-right: 2px solid #444444;
+	border-radius: 0px 0px 8px 8px;
+}
+
+#selectorContent {
+	height: 100%;
+	text-align: center;
+
+}
+
+.card {
+	height: 100%;
+	display: inline;
+}
+
+.card img {
+	border-left: 2px solid #444444;
+	border-right: 2px solid #444444;
+	height: 100%;
+
+}
+
+#ayuda {
+	text-align: left;
+	clear: both;
+	width: 65%;
+	margin-left: 5%;
+	padding-top: 1%;
+	float: left;
+	padding-bottom: 2%;
+}
+
+#ayuda h3 {
+	border-bottom: 2px solid #444444;
+	text-align: center;
+}
+
+ul img {
+
+	width: 100%;
+
+}
+
+@media screen and (max-width: 800px) {
+	#webestorelogo{
+		padding-left: 15%;
+		position: absolute;
+	}
+
+	body {
+
+		text-align: left;
+	}
+
+	#logo {
+
+		width: 30%;
+
+	}
+
+	#logo img {
+
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	#descripcion {
+		float: right;
+		width: 65%;
+		margin-right: 2%;
+		min-height: max-content;
+	}
+
+	#appDescription{
+		text-align: left;
+		padding-right: 15%;
+		padding-left: 15%;
+		font-size: 110%;
+		margin-top: 0;
+		}
+
+	#logo button {
+
+		padding: 10%;
+
+	}
+
+	#decoration img {
+
+		width: 30%;
+
+	}
+
+	#gallery {
+		margin: 0 auto;
+		width: 90%;
+		float: none;
+
+
+	}
+
+	#mostrador {
+
+		height: 200px;
+	}
+
+	#selector {
+
+		height: 40px;
+
+	}
+
+	#info {
+		clear: both;
+		width: 90%;
+		padding-bottom: 2%;
+	}
+
+	#info p {
+
+		display: inline-table;
+		font-size: 75%;
+		margin: 2%;
+	}
+
+	#ayuda {
+
+		width: 80%;
+
+
+	}
+
+	#ayuda h3 {
+
+		text-align: left;
+
+	}
+}

@@ -1,0 +1,188 @@
+body {
+
+	font-family: "ProximaNovaLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #0069B4;
+	text-align: justify;
+	background-color: #F7F7F7;
+	margin: 0%;
+}
+
+nav {
+	background: #0069B4;
+	width: 100%;
+	height: 80px;
+	justify-content: space-around;
+	position: fixed;
+	top: 0;
+	transition: top 0.25s;
+}
+
+nav img{
+	margin-top: 9px;
+	padding-left: 2%;
+	height: 60px;
+	background: none;
+}
+
+#webestorelogo{
+	padding-left: 35%;
+	position: absolute;
+}
+
+.izquierda {
+	display: inline-table;
+	background: #F7F7F7;
+	width: 100%;
+}
+
+
+
+#pantalla-dividida {
+	display: flex;
+	background-color: #F7F7F7;
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 0;
+	text-align: center;
+	top: 0;
+	transition: top 0.25s;
+}
+
+div.text {
+	font-size: 20px;
+	margin-top: 120px;
+}
+
+#center {
+
+	background-color: #F7F7F7;
+	width: 100%;
+	margin-top: 0%;
+
+	padding: 7% 0%;
+	text-align: center;
+
+}
+
+a {
+	width: 100%;
+	text-decoration: none;
+	color: #0069B4;
+}
+
+a:visited {
+
+	color: #0069B4;
+
+}
+
+.androidApp {
+	text-align: center;
+	display: inline-table;
+	width: 95%;
+	height: 40%;
+	margin: 5% 2%;
+	overflow: hidden;
+	background: none;
+
+}
+
+.androidApp:hover {
+
+	box-shadow: 0 4px 8px 0 #F7B227, 0 6px 20px 0 #F3F3F4;
+	border-radius: 5%;
+
+}
+
+.androidAppLogo {
+	margin-top: 2%;
+
+	background: none;
+
+}
+
+.androidAppLogo img {
+
+	margin: 2% 2%;
+	width: 95%;
+	border-radius: 25%;
+	text-align: center;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.androidAppName {
+	font-size: 25px;
+}
+
+
+.logoDis {
+
+	width: 100%;
+	height: 20%;
+}
+
+.logoDis img {
+
+	width: 20%;
+
+}
+.hide {
+
+	display: none;
+
+}
+
+.mostrarMas {
+	text-decoration: none;
+	color: #888888;
+	float: right;
+}
+
+.description {
+	width: 100%;
+	font-size: 100%;
+	text-align: right;
+}
+
+.mostrarMenos {
+	font-size: 90%;
+	text-decoration: none;
+	color: #888888;
+
+}
+
+@media screen and (max-width: 800px) {
+
+	#navigator,
+	#logo {
+
+		position: static;
+		text-align: center;
+		width: 100%;
+		margin: 0%;
+	}
+	#webestorelogo{
+		padding-left: 15%;
+		position: absolute;
+	}
+
+	#logo img {
+
+		width: 50%;
+	}
+
+	#center {
+		padding-top: 35%;
+		margin-left: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	.app {
+
+		width: 40%;
+
+	}
+	
+}

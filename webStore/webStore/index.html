@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<title>Web store</title>
+	<link rel="stylesheet" href="css/mobileStyle.css" />
+	<link rel="shortcut icon" href="images/w.jpg" />
+	<script src="js/functions.js"></script>
+</head>
+
+<body>
+	<script src="comun/jquery.min.js"></script>
+	<header>
+		<nav id="navbar">
+			<div class="navegacion">
+				<a href="javascript: location.reload()" target="_self"><img id="webestorelogo" src="images/webestorelogo.png"></a>
+			</div>
+		</nav>
+	</header>
+	<section id="pantalla-dividida">
+		<div class="izquierda" name="izquierda">
+			<article id="apps1" class="contenido">
+				<div class="androidApp">
+					<a class="appButton" href="" onclick="location.href='facturas/'+os;return false;">
+						<div class="androidAppLogo"><img src="facturas/images/logoFacturas.jpg" /></div>
+						<div class="androidAppName">
+							<h5>Generador de facturas</h5>
+						</div>
+					</a>
+				</div>
+				<div>
+					<a class="mostrarMas" href="" onclick="mostrarDes()">mostrar descripción</a>
+					<div class="hide">
+						<iframe class="description" src="facturas/description.html" frameborder="0"></iframe>
+						<a class="mostrarMenos" href="" onclick="ocultarDes()">ocultar</a>
+					</div>
+				</div>
+			</article>
+			<article id="apps1" class="contenido">
+				<div class="androidApp">
+					<a class="appButton" href="" onclick="location.href='portal/'+os;return false;" )>
+						<div class="androidAppLogo"><img src="portal/images/logo.jpeg" /></div>
+						<div class="androidAppName">
+							<h5>Portal Empleado</h5>
+						</div>
+					</a>
+				</div>
+				<div>
+					<a class="mostrarMas" href="" onclick="mostrarDes()">mostrar descripción</a>
+					<div class="hide">
+						<iframe class="description" src="portal/description.html" frameborder="0"></iframe>
+						<a class="mostrarMenos" href="" onclick="ocultarDes()">ocultar</a>
+					</div>
+				</div>
+			</article>
+			<article id="apps1" class="contenido">
+				<div class="androidApp">
+					<a class="appButton" href="" onclick="location.href='registroHorario/'+os;return false;" )>
+						<div class="androidAppLogo"><img src="registroHorario/images/logoregistrohorario.png" /></div>
+						<div class="androidAppName">
+							<h5>Registro Horario</h5>
+						</div>
+					</a>
+				</div>
+				<div>
+					<a class="mostrarMas" href="" onclick="mostrarDes()">mostrar descripción</a>
+					<div class="hide">
+						<iframe class="description" src="registroHorario/description.html" frameborder="0"></iframe>
+						<a class="mostrarMenos" href="" onclick="ocultarDes()">ocultar</a>
+					</div>
+				</div>
+			</article>
+		</div>
+</body>
+</html>
